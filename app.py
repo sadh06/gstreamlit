@@ -7,7 +7,7 @@ import streamlit as st
 PAGES = {
     "Sklearn Training": sklearntrain,
     "Sklearn Testing": app2,
-    #"Pyacret Training": pycaret_training,
+    "Pyacret Training": pycaret_training,
     #"Pycaret Testing": app1
 }
 st.sidebar.title('Navigation')
