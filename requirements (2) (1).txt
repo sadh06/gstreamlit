@@ -1,0 +1,5 @@
+pycaret==2.3.6
+streamlit==1.7.0
+matplotlib==3.4.1
+pandas
+sklearn
