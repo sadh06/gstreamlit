@@ -13,6 +13,10 @@ PAGES = {
 st.sidebar.title('Navigation')
 dummy = st.sidebar.radio("Choose",('Pycaret','skelarn'))
 if dummy == 'skelarn':
-    selection = st.sidebar.selectbox("Go to", list(PAGES.keys()))
+    selection = st.sidebar.selectbox("Go to",("Sklearn Training", "Sklearn Testing")))
     page = PAGES[selection]
     page.app() 
+else:
+    selection = st.sidebar.selectbox("Go to",("Pycaret Training)))
+    page = PAGES[selection]
+    page.app()    
